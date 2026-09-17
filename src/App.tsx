@@ -1,6 +1,6 @@
 import { useState } from 'react'
 
-const API_URL = import.meta.env.VITE_API_URL || 'http://localhost:8000'
+const API_URL = import.meta.env.VITE_API_URL || 'https://pmsod-api-gyf0g7ekdebdfgc6.westus3-01.azurewebsites.net/'
 
 type RequestState = 'idle' | 'loading' | 'success' | 'error'
 
